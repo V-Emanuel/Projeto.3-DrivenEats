@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+<body>
+    <div class="topo">
+        <p class = "titulo">DrivenEats</p>
+        <p class= "subtitulo">Sua comida em 6 minutos</p>
+    </div>
+    <div class="corpo">
+        <p class="topico_pratos">Primeiro, seu prato</p>
+        <div class = "selecao_pratos">
+            <div onclick="escolhe_acaraje()" id="acaraje" class="pratos">
+                <img class = "imagem"src="imagens/acaraje.png";>
+                <p class = "nome_do_prato">Acarajé</p>
+                <p class = "descricao">O melhor que a Bahia tem</p>
+                <p class = "valor">R$ 8,50</p>
+            </div>
+            <div onclick="escolhe_dadinho()" id="dadinho" class="pratos">
+                <img class = "imagem"src="imagens/dadinho.png";>
+                <p class = "nome_do_prato">Dadinho de Tapioca</p>
+                <p class = "descricao">Porção com 10 unidades</p>
+                <p class = "valor">R$ 15,00</p>
+            </div>
+            <div onclick="escolhe_cuscuz()" id="cuscuz" class="pratos canto">
+                <img class = "imagem"src="imagens/cuscuz.png";>
+                <p class = "nome_do_prato">Cuscuz Recheado</p>
+                <p class = "descricao">Cuscuz recheado com carne de sol</p>
+                <p class = "valor">R$ 12,50</p>
+            </div>
+        </div>
+        <p class="topico_pratos">Agora, sua bebida</p>
+    <div class = "selecao_pratos">
+        <div onclick="escolhe_garapa()" id="garapa" class="pratos">
+            <img class = "imagem"src="imagens/garapa.png";>
+            <p class = "nome_do_prato">Garapa</p>
+            <p class = "descricao">Copo 400ml</p>
+            <p class = "valor">R$ 4,50</p>
+        </div>
+        <div onclick="escolhe_guarana()" id="guarana" class="pratos">
+            <img class = "imagem"src="imagens/guaranajesus.png";>
+            <p class = "nome_do_prato">Guaraná Jesus</p>
+            <p class = "descricao">Lata 350ml</p>
+            <p class = "valor">R$ 3,50</p>
+        </div>
+        <div onclick="escolhe_suco()" id="suco" class="pratos canto">
+            <img class = "imagem"src="imagens/suco.png";>
+            <p class = "nome_do_prato">Suco de Maracujá</p>
+            <p class = "descricao">Copo 400ml</p>
+            <p class = "valor">R$ 4,00</p>
+        </div>
+    </div>
+        <p class="topico_pratos">Por fim, sua sobremesa</p>
+        <div  class = "selecao_pratos">
+            <div onclick="escolhe_pave()"  id="pave" class="pratos">
+                <img class = "imagem"src="imagens/pave.png";>
+                <p class = "nome_do_prato">Pavê</p>
+                <p class = "descricao">Porção 300g</p>
+                <p class = "valor">R$ 4,25</p>
+            </div>
+            <div onclick="escolhe_ambrosia()" id = "ambrosia"class="pratos">
+                <img class = "imagem"src="imagens/ambrosia.png";>
+                <p class = "nome_do_prato">Ambrosia</p>
+                <p class = "descricao">Porção 250g</p>
+                <p class = "valor">R$ 3,75</p>
+            </div>
+            <div onclick="escolhe_brigadeiro()" id = "brigadeiro"class="pratos canto">
+                <img class = "imagem"src="imagens/brigadeiro.png";>
+                <p class = "nome_do_prato">Brigadeiro</p>
+                <p class = "descricao">1 unidade</p>
+                <p class = "valor">R$ 2,00</p>
+            </div>
+        </div>
+    </div>
+    <div class="rodape">
+        <div id = "finalizado" on click = "pedido_finalizado()" class="caixa_de_texto">
+            <div class="texto_rodape"><p>Selecione os 3 itens</p></div>
+            <div class="texto_rodape"><p>para fechar o pedido</p></div>
+        </div>   
+    </div>
+<script src = "interacao.js"></script>
+</body>
+</html>
