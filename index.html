@@ -18,65 +18,75 @@
     <div class="corpo">
         <p class="topico_pratos">Primeiro, seu prato</p>
         <div class = "selecao_pratos">
-            <div onclick="escolhe_acaraje()" id="acaraje" class="pratos">
+            <div id = "acaraje_id" onclick="escolhe_acaraje()" class="pratos acaraje">
                 <img class = "imagem"src="imagens/acaraje.png";>
                 <p class = "nome_do_prato">Acarajé</p>
                 <p class = "descricao">O melhor que a Bahia tem</p>
                 <p class = "valor">R$ 8,50</p>
+                <ion-icon id="img_acaraje" class = "icone" name="checkmark-circle"></ion-icon>
             </div>
-            <div onclick="escolhe_dadinho()" id="dadinho" class="pratos">
+            <div id="dadinho_id" onclick="escolhe_dadinho()" class="pratos dadinho">
                 <img class = "imagem"src="imagens/dadinho.png";>
                 <p class = "nome_do_prato">Dadinho de Tapioca</p>
                 <p class = "descricao">Porção com 10 unidades</p>
                 <p class = "valor">R$ 15,00</p>
+                <ion-icon id="img_dadinho" class = "icone" name="checkmark-circle"></ion-icon>
             </div>
-            <div onclick="escolhe_cuscuz()" id="cuscuz" class="pratos canto">
+            <div id="cuscuz_id" onclick="escolhe_cuscuz()" class="pratos canto cuscuz">
                 <img class = "imagem"src="imagens/cuscuz.png";>
                 <p class = "nome_do_prato">Cuscuz Recheado</p>
                 <p class = "descricao">Cuscuz recheado com carne de sol</p>
                 <p class = "valor">R$ 12,50</p>
+                <ion-icon id="img_cuscuz" class = "icone" name="checkmark-circle"></ion-icon>
             </div>
+            
         </div>
         <p class="topico_pratos">Agora, sua bebida</p>
     <div class = "selecao_pratos">
-        <div onclick="escolhe_garapa()" id="garapa" class="pratos">
+        <div id="garapa_id" onclick="escolhe_garapa()" class="pratos garapa">
             <img class = "imagem"src="imagens/garapa.png";>
             <p class = "nome_do_prato">Garapa</p>
             <p class = "descricao">Copo 400ml</p>
             <p class = "valor">R$ 4,50</p>
+            <ion-icon id="img_garapa" class = "icone" name="checkmark-circle"></ion-icon>
         </div>
-        <div onclick="escolhe_guarana()" id="guarana" class="pratos">
+        <div id="guarana_id" onclick="escolhe_guarana()" class="pratos guarana">
             <img class = "imagem"src="imagens/guaranajesus.png";>
             <p class = "nome_do_prato">Guaraná Jesus</p>
             <p class = "descricao">Lata 350ml</p>
             <p class = "valor">R$ 3,50</p>
+            <ion-icon id="img_guarana" class = "icone" name="checkmark-circle"></ion-icon>
         </div>
-        <div onclick="escolhe_suco()" id="suco" class="pratos canto">
+        <div id="suco_id" onclick="escolhe_suco()" class="pratos canto suco">
             <img class = "imagem"src="imagens/suco.png";>
             <p class = "nome_do_prato">Suco de Maracujá</p>
             <p class = "descricao">Copo 400ml</p>
             <p class = "valor">R$ 4,00</p>
+            <ion-icon id="img_suco" class = "icone" name="checkmark-circle"></ion-icon>
         </div>
     </div>
         <p class="topico_pratos">Por fim, sua sobremesa</p>
         <div  class = "selecao_pratos">
-            <div onclick="escolhe_pave()"  id="pave" class="pratos">
+            <div id="pave_id" onclick="escolhe_pave()"  class="pratos pave">
                 <img class = "imagem"src="imagens/pave.png";>
                 <p class = "nome_do_prato">Pavê</p>
                 <p class = "descricao">Porção 300g</p>
                 <p class = "valor">R$ 4,25</p>
+                <ion-icon id="img_pave" class = "icone" name="checkmark-circle"></ion-icon>
             </div>
-            <div onclick="escolhe_ambrosia()" id = "ambrosia"class="pratos">
+            <div id="ambrosia_id" onclick="escolhe_ambrosia()" class="pratos ambrosia">
                 <img class = "imagem"src="imagens/ambrosia.png";>
                 <p class = "nome_do_prato">Ambrosia</p>
                 <p class = "descricao">Porção 250g</p>
                 <p class = "valor">R$ 3,75</p>
+                <ion-icon id="img_ambrosia" class = "icone" name="checkmark-circle"></ion-icon>
             </div>
-            <div onclick="escolhe_brigadeiro()" id = "brigadeiro"class="pratos canto">
+            <div id="brigadeiro_id" onclick="escolhe_brigadeiro()" class="pratos canto brigadeiro">
                 <img class = "imagem"src="imagens/brigadeiro.png";>
                 <p class = "nome_do_prato">Brigadeiro</p>
                 <p class = "descricao">1 unidade</p>
                 <p class = "valor">R$ 2,00</p>
+                <ion-icon id="img_brigadeiro" class = "icone" name="checkmark-circle"></ion-icon>
             </div>
         </div>
     </div>
@@ -87,5 +97,7 @@
         </div>   
     </div>
 <script src = "interacao.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
