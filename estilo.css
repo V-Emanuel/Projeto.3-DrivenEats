@@ -173,7 +173,6 @@ body {
 }
 
 .texto_rodape {
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -184,7 +183,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 ::-webkit-scrollbar{
     display: none;
