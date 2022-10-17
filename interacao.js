@@ -1,7 +1,9 @@
 let prato;
 let bebida;
 let sobremesa;
-let sel_prato, sel_bebida, sel_sobremesa;
+let sel_prato = 0;
+let sel_bebida = 0;
+let sel_sobremesa = 0;
 function escolhe_acaraje(){   
 
     document.getElementById("acaraje_id").style.borderColor = "#32B72F";
@@ -96,7 +98,11 @@ function escolhe_brigadeiro(){
     sobremesa = "Brigadeiro";
     sel_sobremesa = 1;
 }
-function pedido_finalizado(){
-    
 
+function pedido_finalizado(){   
+    if((sel_bebida+sel_prato+sel_sobremesa) == 3){
+        const texto = document.querySelector(".texto_rodape");
+        texto.textContent = "Fechar Pedido";
+        document.getElementById("finalizado").style.backgroundColor = "green";
+    }
 }
