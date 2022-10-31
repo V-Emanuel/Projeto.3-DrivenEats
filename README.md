@@ -7,7 +7,7 @@
 </br>
 
 ## ✏️ Descrição
-<p align="justify" >Desenvolvimento de um site mobile simples, similar ao IFood para pedir comida, visando fixar conceitos de HTML, CSS e Java Script.</p>
+<p align="justify" >Desenvolvimento de um site mobile simples para pedir comida, similar ao IFood, visando fixar conceitos de HTML, CSS e Java Script.</p>
 <p align="justify" >Para acessá-lo basta acessar o link: https://v-emanuel.github.io/Projeto.3_DrivenEats/</p>
 
 </br>
