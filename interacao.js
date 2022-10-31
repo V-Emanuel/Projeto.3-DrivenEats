@@ -138,7 +138,7 @@ function pedido_finalizado(){
         "- Sobremesa: " + sobremesa + "\n" +
         "Total: R$" + pedido_preco);
         
-        window.open("https://wa.me/5583998465525?text=" + mensagem); 
+        window.open("https://wa.me/5599999999999?text=" + mensagem); 
     }
     
 
